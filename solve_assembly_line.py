@@ -51,8 +51,6 @@ def solve_assembly_line(a1, a2, t1, t2, e1, e2, x1, x2):
         S1[i] = min(S1[i - 1] + a1[i], S2[i - 1] + t2[i - 1] + a1[i])
         S2[i] = min(S2[i - 1] + a2[i], S1[i - 1] + t1[i - 1] + a2[i])
 
-    print(S1, S2)
-
     # 3. PATH RECONSTRUCTION (Backtracking):
     min_time = float("inf")
     path = [0] * n
