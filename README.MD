@@ -27,7 +27,7 @@ Find the **minimum total time** to complete assembly and the **optimal path** th
 
 ### Visual Example
 
-![Assembly Line Diagram](Line_assembly_visulization.png)
+![Assembly Line Diagram](assembly_line_visulization.png)
 
 In the diagram above:
 
